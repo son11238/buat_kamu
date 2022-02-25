@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hai cantik</h1>
+    <img src="https://i.pinimg.com/originals/1a/d9/39/1ad939acaaad5948105516f4f80feb3e.gif"/>
+    <h1>mau kah kamu jadi istriku?</h1>
+    <button id="btn-mau" onclick="alert( 'i love you' )">mau</button>
+    <button id="btn_gamau" onclick="gamau(this)" style="position: gamau;"></button>
+    
+
+
+</body>
+<script>
+    function gamau(id)
+    { 
+      var mau = document.getElementById("btn_mau")
+      var i = Math.floor(Math.random() * 3000) + 1;
+      var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+      id.style.left = i + "px" ;
+      id.style.top = j + "px"
+    }
+     
+</script>
+
+</html>
